@@ -1,0 +1,20 @@
+
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeOpen.iiko.Front.Temperature", "BeOpen.iiko.Front.Temperature.csproj", "{292ACC8E-E543-40E2-8C9F-70FCF24FCCBA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{292ACC8E-E543-40E2-8C9F-70FCF24FCCBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{292ACC8E-E543-40E2-8C9F-70FCF24FCCBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{292ACC8E-E543-40E2-8C9F-70FCF24FCCBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{292ACC8E-E543-40E2-8C9F-70FCF24FCCBA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
