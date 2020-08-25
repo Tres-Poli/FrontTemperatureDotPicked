@@ -78,12 +78,9 @@ namespace BeOpen.iiko.Front.Temperature
                 string dateTimeStr = $"<b>Temperature information on {dateStr} {timeStr}</b>";
                 var xelement2 = new XElement("fill", dateTimeStr);
                 var xelement3 = new XElement("fill", string.Format("Avarage temperature: {0}", temperatureResponse.TemperatureInfo.AverageTemp));
-                var xelement4 = new XElement("fill", ("Min temperature " + temperatureResponse.TemperatureInfo.EmployeeIdMinTemp));
-                var xelement5 = new XElement("fill", ("Max temperature " + temperatureResponse.TemperatureInfo.EmployeeIdMaxTemp));
                 xelement1.Add(xelement2);
                 xelement1.Add(xelement3);
-                xelement1.Add(xelement4);
-                xelement1.Add(xelement5);
+
                 PluginContext.Operations.Print(receiptChequePrinter, xelement1);
             }
             catch (Exception ex)
